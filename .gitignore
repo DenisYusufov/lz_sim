@@ -67,3 +67,14 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Geant4/CMake build artifacts
+lz_sim-build/
+*.o
+*.csv
+*.pkl
+
+# Geant4-generated files
+G4cout.dat
+G4cerr.dat
+*.wrl
