@@ -21,7 +21,7 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
   G4ParticleDefinition* particle = particleTable->FindParticle(particleName = "gamma");
   fParticleGun->SetParticleDefinition(particle);
   fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.)); // for now gammas fired in z direction
-  fParticleGun->SetParticleEnergy(2.45 * MeV);  // adjust to whatever energy you want to study
+  fParticleGun->SetParticleEnergy(2.6155 * MeV);  // adjust to whatever energy you want to study
 }
 
 PrimaryGeneratorAction::~PrimaryGeneratorAction()
